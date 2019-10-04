@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Unrealistic/src/Unrealistic.cpp&apos; to &apos;PojoSample.cpp&apos;" description="Rename resource &apos;Unrealistic.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Unrealistic.cpp" name="PojoSample.cpp" stamp="1570181946319" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Unrealistic/src/TimeConverter&apos; to &apos;TimeConverter.cpp&apos;" description="Rename resource &apos;TimeConverter&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/TimeConverter" name="TimeConverter.cpp" stamp="1570201609524" updateReferences="true"/>
+</session>

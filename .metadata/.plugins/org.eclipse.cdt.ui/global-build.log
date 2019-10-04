@@ -1,5 +1,6 @@
-16:46:46 **** Incremental Build of configuration Debug for project Unrealistic ****
+23:09:38 **** Incremental Build of configuration Debug for project Unrealistic ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unrealistic.o" "..\\src\\Unrealistic.cpp" 
-g++ -o Unrealistic.exe "src\\Employee.o" "src\\Unrealistic.o" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TimeConverter.o" "..\\src\\TimeConverter.cpp" 
+g++ -o Unrealistic.exe "src\\Employee.o" "src\\Main.o" "src\\PointerSample.o" "src\\PojoSample.o" "src\\TimeConverter.o" 
 Info: Nothing to build for Unrealistic

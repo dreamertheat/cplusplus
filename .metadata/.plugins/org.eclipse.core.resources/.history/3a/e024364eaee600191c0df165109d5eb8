@@ -1,0 +1,27 @@
+/*
+ * Main.cpp
+ *
+ *  Created on: Oct 4, 2019
+ *      Author: dream
+ */
+#include<iostream>
+#include<iomanip>
+
+void timeConverter(double seconds);
+using namespace std;
+int main(){
+	//call anything you want here
+
+}
+
+void timeConverter(double seconds){
+	double hours;
+	double minutes;
+	double seconds;
+
+	cout<<"hours"<<hours<endl;
+	cout<<"minutes"<<minutes<endl;
+	cout<<"seconds"<<seconds<endl;
+}
+
+

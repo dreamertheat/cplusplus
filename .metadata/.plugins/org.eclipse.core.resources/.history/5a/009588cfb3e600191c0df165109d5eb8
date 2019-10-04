@@ -1,0 +1,28 @@
+/*
+ * Main.cpp
+ *
+ *  Created on: Oct 4, 2019
+ *      Author: dream
+ */
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+void timeConverter(double seconds);
+using namespace std;
+int main(){
+	//call anything you want here
+	timeConverter(30000);
+}
+
+void timeConverter(double seconds){
+	double hours =  floor(seconds/3600);
+	double minutes = (seconds/3600)
+	double seconds_=0;
+
+
+	cout<<"hours"<<hours<<endl;
+	cout<<"minutes"<<minutes<<endl;
+	cout<<"seconds"<<seconds_<<endl;
+}
+
+

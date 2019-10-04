@@ -1,0 +1,36 @@
+/*
+ * Employee.cpp
+ *
+ *  Created on: Oct 4, 2019
+ *      Author: dream
+ */
+#include <iostream>
+#include "Employee.h"
+
+using namespace std;
+
+void Employee:: setID(int id){
+	this->id=id;
+}
+
+void Employee:: setAge(int age){
+	this->age = age;
+}
+void Employee :: setFirstName(string first_name){
+	this->first_name=first_name;
+}
+void Employee :: setLastName(string last_name) {
+
+}
+int Employee :: getID(){
+	return id;
+}
+int Employee :: getAge(){
+	return age;
+}
+string Employee :: getFirstName(){
+	return first_name;
+}
+string Employee :: getLastName(){
+	return last_name;
+}

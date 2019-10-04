@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : Unrealistic.cpp
+// Author      : Sanctus Ignis
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Employee.h"
+using namespace std;
+
+void process(double *amount);
+
+int main() {
+
+	double attack = 100.5;
+	double* damage = &attack;
+	cout<<"damage"<<damage<<endl;
+	cout<<&attack<<endl;
+	process(&attack);
+
+	return 0;
+}
+
+void process(double *amount){
+	cout<<*amount<<endl;
+	cout<<&amount<<endl;
+	cout<<amount<<endl;
+	cout<<&amount<<endl;
+	cout<<amount<<endl;
+}

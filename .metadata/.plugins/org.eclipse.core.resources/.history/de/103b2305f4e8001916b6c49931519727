@@ -1,0 +1,25 @@
+/*
+ * Main.cpp
+ *
+ *  Created on: Oct 4, 2019
+ *      Author: dream
+ */
+#include<iostream>
+#include<iomanip>
+#include<cmath>
+void timeConverter(double seconds);
+
+using namespace std;
+int main() {
+	//call anything you want here
+
+	string names[4] = {"Mathew","Mark","Luke","John"};
+	string* employees = names;
+	//regular iteration
+	for(int g=0;g<sizeof(names)/sizeof(string);g++){
+		//cout<<names[g]<<endl;
+		cout<<*employees<<endl;
+		*employees++
+	}
+}
+

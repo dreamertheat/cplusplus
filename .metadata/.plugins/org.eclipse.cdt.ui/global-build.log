@@ -1,19 +1,23 @@
-17:14:45 **** Incremental Build of configuration Debug for project Unrealistic ****
+21:47:12 **** Incremental Build of configuration Debug for project Unrealistic ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PojoSample.o" "..\\src\\PojoSample.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PointerSample.o" "..\\src\\PointerSample.cpp" 
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TimeConverter.o" "..\\src\\TimeConverter.cpp" 
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.cpp" 
 ..\src\Main.cpp: In copy constructor 'Person::Person(Person&)':
-..\src\Main.cpp:19:32: warning: operation on '((Person*)this)->Person::age' may be undefined [-Wsequence-point]
+..\src\Main.cpp:24:32: warning: operation on '((Person*)this)->Person::age' may be undefined [-Wsequence-point]
   Person(Person &person):age(age=person.age){cout<<"constructor2"<<endl;}
                              ~~~^~~~~~~~~~~
 ..\src\Main.cpp: In function 'int main()':
-..\src\Main.cpp:48:15: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+..\src\Main.cpp:90:15: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
   for(int g=0;g<sizeof(names)/sizeof(string);g++){
               ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-..\src\Main.cpp:51:3: warning: value computed is not used [-Wunused-value]
+..\src\Main.cpp:93:3: warning: value computed is not used [-Wunused-value]
    *employees++;
    ^~~~~~~~~~~~
+..\src\Main.cpp:106:6: warning: unused variable 'var0' [-Wunused-variable]
+  int var0 = 100;
+      ^~~~
+..\src\Main.cpp:107:7: warning: unused variable 'var3' [-Wunused-variable]
+  int *var3 = &var1;
+       ^~~~
 g++ -o Unrealistic.exe "src\\Employee.o" "src\\Main.o" "src\\PointerSample.o" "src\\PojoSample.o" "src\\TimeConverter.o" 
+Info: Nothing to build for Unrealistic
 Info: Nothing to build for Unrealistic

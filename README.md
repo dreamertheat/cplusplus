@@ -1,2 +1,2 @@
 # cplusplus
-c++ codes scratch
+My personal c++ codes scratch repo
